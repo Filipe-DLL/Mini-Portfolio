@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+    background-image: url('../imagens/background.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-family: 'VT323', monospace;
+    color: #fbecfc;
+    min-height: 100vh;
+    padding: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cartao {
+    background-color: #1A081A;
+    width: 370px;
+    height: auto;
+
+    border: 2px;
+    border-style: solid;
+    border-color: #731B7F;
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.cartao .minhasInformacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.cartao .minhasInformacoes img {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #E2D0E4;
+}
+
+.cartao .minhasInformacoes h3 {
+    font-size: 22px;
+}
+
+.cartao .conteudo {
+    margin-top: 5px;
+}
+
+.cartao .abas {
+    display: flex;
+    flex-direction: row;
+}
+
+.cartao .abas .aba {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    cursor: pointer;
+    padding: 10px 0px;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cartao .abas img {
+    width: 35px;
+}
+
+.cartao .conteudo .abas .aba.selecionado {
+    background-color: #341a34;
+}
+
+.cartao .conteudo .abas .aba:hover {
+    background-color: #542658;
+}
+
+.cartao .conteudo .informacoesAbas .informacoes {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px 12px;
+    background-color: #341a34;
+    display: none;
+}
+
+.cartao .conteudo .informacoesAbas .informacoes.selecionado {
+    display: block;
+}
+
+
+/* sobre */
+.informacoesAbas .informacoes h2 {
+    padding-bottom: 8px;
+    font-size: 26px;
+}
+
+.informacoesAbas .informacoes p {
+    font-size: 20px;
+    margin: 6px 0px;
+}
+
+.informacoesAbas .informacoes p span {
+    color: #fb2ffb;
+}
+
+.informacoesAbas .informacoes {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Redes Sociais */
+.informacoesAbas .informacoes img {
+    width: 30px;
+}
+
+.informacoesAbas .informacoes li {
+    margin: auto;
+    width: 100px;
+}
+
+.informacoes li a {
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px 8px;
+    margin: 18px 0px;
+}
+
+
+
+
+plum1: '#1d131d',
+plum2: '#251425',
+plum3: '#341a34',
+plum4: '#3e1d40',
+plum5: '#48214b',
+plum6: '#542658',
+plum7: '#692d6f',
+plum8: '#883894',
+plum9: '#ab4aba',
+plum10: '#bd54c6',
+plum11: '#d864d8',
+plum12: '#fbecfc',
+
+
+plumA1: '#000000',
+plumA2: '#fb2ffb',
+plumA3: '#fe58fe',
+plumA4: '#f153ff',
+plumA5: '#f158fe',
+plumA6: '#ee5cfe',
+plumA7: '#ee5aff',
+plumA8: '#e959ff',
+plumA9: '#ea62ff',
+plumA10: '#f36aff',
+plumA11: '#ff75ff',
+plumA12: '#fff0ff',
+

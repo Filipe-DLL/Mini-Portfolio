@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mini-Portfolio</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    <main class="cartao">
+
+        <div class="minhasInformacoes">
+            <img src="https://github.com/Filipe-DLL.png" alt="Foto de perfil">
+            <center>
+                <h1>Filipe Ferreira</h1>
+            </center>
+            <center>
+                <h3>Desenvolvedor Frontend Júnior</h3>
+            </center>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li onclick="selecionarSobre()" class="aba selecionado" id="abaSobre">
+                    <img src="./src/imagens/sobre.gif" alt="Ícone sobre min">
+                </li>
+                <li onclick="selecionarRedes()" class="aba" id="abaRedes">
+                    <img src="./src/imagens/coracao.gif" alt="Ícone das redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoesAbas">
+                <div class="informacoes selecionado" id="conteudoSobre">
+                    <center>
+                        <h2>Sobre</h2>
+                    </center>
+                    <P>
+                        Oi! Meu nome é Filipe Ferreira, seja bem-vindo(a)!
+                        Tenho 22 anos e sempre fui apaixonado por tecnologia, e agora decidi entrar na área como
+                        desenvolvedor, estou estudando <span> HTML, CSS </span> e <span> JavaScript </span> para me tornar um dev
+                        Front-end, também pretendo aprender <span> ReactJS </span> e <span> React Native </span>. Meus principais
+                        hobbies são jogar e assistir animes.
+                    </P>
+                </div>
+                <div class="informacoes " id="conteudoRedes">
+                    <ul>
+                        <center>
+                            <h2>Minhas Redes</h2>
+                        </center>
+                        <li>
+                            <div><a href="https://github.com/Filipe-DLL" target="_blank">
+                                    <img src="./src/imagens/github_logo_dark.png" alt="GitHub">GitHub
+                                </a></div>
+                        </li>
+                        <li>
+                            <div><a href="https://www.linkedin.com/in/filipe-dll/" target="_blank">
+                                    <img src="./src/imagens/linkedin.png" alt="Linkedin">Linkedin
+                                </a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./src/JS/script.js"></script>
+</body>
+
+</html>
