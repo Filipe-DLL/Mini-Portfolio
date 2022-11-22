@@ -2,4 +2,4 @@
 
 Mini portfolio desenvolvido durante o MAPADEV WEEK
 
-https://filipe-dll.github.io/Mini-Portfolio/
+ Link para <a href="https://filipe-dll.github.io/Huddle/">Visualizar projeto</a>
